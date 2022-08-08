@@ -1,13 +1,21 @@
-function sum (a, b) {
-    return a + b
+class Person{
+    constructor(name) {
+        this.name = name
+    }
+
+    printNameArrow() {
+        setTimeout(() => {
+            console.log('Arrow: ' + this.name)
+        }, 100)
+    }
+        printNameFunction() {
+            setTimeout(function() {
+                console.log('Function: ' + this.name)
+            }, 100)
+    }
 }
 
-let sum2 = (a, b) =>  {
-    return a + b
-}
-
-let isPositive2 = number => number >= 0
-
-let randomNumber2 = () => Math.random
-
-document.addEventListener('click', () => console.log('click'))
+let person = new Person ('Bob')
+person.printNameArrow()
+person.printNameFunction()
+console.log(this.name)
