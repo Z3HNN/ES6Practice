@@ -25,7 +25,7 @@ console.log(this.name) */
 //const -> also block
 
 
- /* const person = {
+const person = {
     name: 'Mosh',
     walk() {
         console.log(this);
@@ -34,4 +34,4 @@ console.log(this.name) */
 person.walk();
 
  const walk = person.walk.bind(person);
- walk(); */
+ walk(); 
