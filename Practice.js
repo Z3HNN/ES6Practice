@@ -27,5 +27,11 @@ console.log(this.name) */
 
 const person = {
     name: 'Mosh',
-    walk(){},
-}
+    walk() {
+        console.log(this);
+    },
+};
+person.walk();
+
+ const walk = person.walk;
+ walk();
