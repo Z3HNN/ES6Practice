@@ -20,12 +20,12 @@ person.printNameArrow()
 person.printNameFunction()
 console.log(this.name) */
 
+//var -> function 
+//let -> block
+//const -> also block
 
 
-function sayHello() {
-    for (var i =0; i<5 i++){
-        console.log(i)
-    }
+const person = {
+    name: 'Mosh',
+    walk(){},
 }
-
-sayHello
