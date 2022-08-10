@@ -1,4 +1,4 @@
-class Person{
+ /* class Person{
     constructor(name) {
         this.name = name
     }
@@ -18,4 +18,14 @@ class Person{
 let person = new Person ('Bob')
 person.printNameArrow()
 person.printNameFunction()
-console.log(this.name)
+console.log(this.name) */
+
+
+
+function sayHello() {
+    for (var i =0; i<5 i++){
+        console.log(i)
+    }
+}
+
+sayHello
