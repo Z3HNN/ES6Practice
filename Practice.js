@@ -48,5 +48,8 @@ person.walk();
     {id: 1, isActive: true},
  ];
 
-  const activeJobs = jobs.filter(function(job) {return job.isActive})
+
   const activeJobs = jobs.filter(job => job.isActive)
+
+
+  
