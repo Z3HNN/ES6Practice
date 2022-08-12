@@ -52,4 +52,12 @@ person.walk();
   const activeJobs = jobs.filter(job => job.isActive)
 
 
-  
+  const persons = {
+    talk() {
+        var self = this;
+        setTimeout(() => {
+            
+        }
+    }
+
+  }
