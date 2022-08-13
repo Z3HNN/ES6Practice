@@ -1,4 +1,4 @@
- /* class Person{
+/* class Person{
     constructor(name) {
         this.name = name
     }
@@ -20,57 +20,72 @@ person.printNameArrow()
 person.printNameFunction()
 console.log(this.name) */
 
-//var -> function 
+//var -> function
 //let -> block
 //const -> also block
 
-
 const person = {
-    name: 'Mosh',
-    walk() {
-        console.log(this);
-    },
+  name: "Mosh",
+  walk() {
+    console.log(this);
+  },
 };
 person.walk();
 
- const walk = person.walk.bind(person);
- walk(); 
+const walk = person.walk.bind(person);
+walk();
 
+const square = (number) => number * number;
 
+console.log(square(5));
 
- const square = (number) => number * number
+const jobs = [
+  { id: 1, isActive: true },
+  { id: 1, isActive: true },
+  { id: 1, isActive: true },
+];
 
- console.log(square(5))
+const activeJobs = jobs.filter((job) => job.isActive);
 
- const jobs = [
-    {id: 1, isActive: true},
-    {id: 1, isActive: true},
-    {id: 1, isActive: true},
- ];
+const colors = ["red", "green", "blue"];
+const items = colors.map((color) => "<li>" + color + "</li>");
 
+const address = {
+  street: "",
+  city: "",
+  Country: "",
+};
 
-  const activeJobs = jobs.filter(job => job.isActive)
+const street = address.street;
+const sity = address;
 
+const { street: st } = address;
 
- const colors = ['red', 'green', 'blue'];
- const items = colors.map( color => "<li>" + color + '</li>')
+const yo = { yotag: "yoyo" };
 
- const address = {
-    street: '' ,
-    city: '' ,
-    Country: '' 
-    
- };
+const yoSpeech = { ...yo };
 
- const street = address.street;
- const sity = address
+console.log(yo);
 
- const { street: st } = address;
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
 
+  walk() {
+    console.log("walk");
+  }
+}
 
+class Teacher extends Person {
+    constructor(name, degree) {
+        super(name);
+        this.degree = degree;
+    }
+  teach() {
+    console.log("teach");
+  }
+}
 
- const yo = { yotag: 'yoyo'}
-
- const yoSpeech = {...yo}
-
- console.log(yo)
+const teacher = new Teacher("Mosh", "MSC")
+teacher.
