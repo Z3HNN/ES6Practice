@@ -67,14 +67,10 @@ person.walk();
 
  const { street: st } = address;
 
- const first = [1, 2, 3];
- const second = [4, 5, 6];
 
- const combined = first.concat(second)
 
- const combines = [...first, ...second]
+ const yo = { yotag: 'yoyo'}
 
- const first = { name: 'mosh'}
- const second = { name: 'Instructor'}
+ const yoSpeech = {...yo}
 
- const combined = {...first, ...second}
+ console.log(yo)
