@@ -54,3 +54,15 @@ person.walk();
 
  const colors = ['red', 'green', 'blue'];
  const items = colors.map( color => "<li>" + color + '</li>')
+
+ const address = {
+    street: '' ,
+    city: '' ,
+    Country: '' 
+    
+ };
+
+ const street = address.street;
+ const sity = address
+
+ const { street, city, country } = address;
