@@ -67,25 +67,10 @@ const yoSpeech = { ...yo };
 
 console.log(yo);
 
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
 
-  walk() {
-    console.log("walk");
-  }
-}
+import { promote } from "./teacher";
 
-class Teacher extends Person {
-    constructor(name, degree) {
-        super(name);
-        this.degree = degree;
-    }
-  teach() {
-    console.log("teach");
-  }
-}
 
 const teacher = new Teacher("Mosh", "MSC")
-teacher.
+
+teacher.teach();
