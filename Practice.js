@@ -73,3 +73,8 @@ person.walk();
  const combined = first.concat(second)
 
  const combines = [...first, ...second]
+
+ const first = { name: 'mosh'}
+ const second = { name: 'Instructor'}
+
+ const combined = {...first, ...second}
