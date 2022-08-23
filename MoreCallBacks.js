@@ -9,6 +9,6 @@ const loadPokemon = (id, cb) => {
     })
 }
 
-loadPokemon(59, (pokemon) => {
+loadPokemon(24, (pokemon) => {
     console.log(pokemon)
 })
