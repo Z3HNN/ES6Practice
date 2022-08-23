@@ -1,5 +1,5 @@
-const names = ['nataly', 'jess', 'lily', 'sevy']
-names.forEach((name) => console.log(name))
+const firstNames = ['nataly', 'jess', 'lily', 'sevy']
+firstNames.forEach((name) => console.log(name))
 
 const loadPokemon = (id, cb) => {
     fetch(`https:/pokeapi.co/api/v2/pokemon/${id}`)
