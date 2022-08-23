@@ -1,3 +1,2 @@
-setTimeout(() =>{
-console.log("Hello")
-}, 100)
+const names = ['james', 'jess', 'lily', 'sevy']
+names.forEach((name) => console.log(name))
