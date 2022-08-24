@@ -13,6 +13,9 @@ const people = [
     { firstName: 'Aaron', lastName: 'Garrett', DOB: '09/04/1985', department: 'Development', salary: '39000' },
 ];
 
-people.reduce((accumulator, person) => accumulator + parseInt(person.salary), 0)
+//people.reduce((accumulator, person) => accumulator + parseInt(person.salary), 0)
+
+people.map(person => `${person.firstName} ${person.lastName}`)
+
 
 
