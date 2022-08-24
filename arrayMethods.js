@@ -15,7 +15,7 @@ const people = [
 
 //people.reduce((accumulator, person) => accumulator + parseInt(person.salary), 0)
 
-people.map(person => `${person.firstName} ${person.lastName}`)
+people.sort((personA, personB) => new Date(personA.DOB) - new Date(personB.DOB))
 
 
 
