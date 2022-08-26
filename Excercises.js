@@ -10,5 +10,5 @@ function capitalize(str) {
     return str.replace(str.slice(0, 1). str.slice(0, 1).toUpperCase())
 }
 
-var result= capitalize('thank you')
-console.log(result)
+var capResult= capitalize('thank you')
+console.log(capResult)
