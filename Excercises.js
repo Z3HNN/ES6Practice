@@ -19,7 +19,10 @@ function repeatString(str, count) {
      ) {
         return 'Error in string or count'
      } else {
-        return str.repeat(count)
+        //return str.repeat(count)
+
+        let text = ''
+        for (let i = 0; i < count; i++) {}
      }
 }
 
