@@ -23,4 +23,4 @@ function repeatString(str, count) {
      }
 }
 
-let repeatString('a', 4)
+let repeatString = ('a', 4)
