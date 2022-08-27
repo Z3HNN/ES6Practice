@@ -21,8 +21,13 @@ function repeatString(str, count) {
      } else {
         //return str.repeat(count)
 
-        let text = ''
-        for (let i = 0; i < count; i++) {}
+        //let text = ''
+
+        let text = []
+        for (let i = 0; i < count; i++) {
+            text.push(str)
+        }
+        return text.join('')
      }
 }
 
