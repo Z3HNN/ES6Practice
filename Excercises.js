@@ -12,3 +12,4 @@ function capitalize(str) {
 
 var capResult= capitalize('thank you')
 console.log(capResult)
+
