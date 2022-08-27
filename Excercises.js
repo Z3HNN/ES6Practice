@@ -13,3 +13,14 @@ function capitalize(str) {
 var capResult= capitalize('thank you')
 console.log(capResult)
 
+function repeatString(str, count) {
+    if ((str === null) || (count === null) ||
+     (count === Inifity) || (count < 0)
+     ) {
+        return 'Error in string or count'
+     } else {
+        return str.repeat(count)
+     }
+}
+
+let repeatString('a', 4)
