@@ -80,5 +80,9 @@ const nuymber = [3, 8, -3, -10, 9, 3]
 let min = null
 
 for(let number of numbers) {
-  
+  if (min === null){
+    min = number
+  } else it (number < min) {
+    min = number
+  }
 }
