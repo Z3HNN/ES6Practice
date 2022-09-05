@@ -86,3 +86,6 @@ for(let number of numbers) {
     min = number
   }
 }
+
+
+console.log('your minimum was ' + min)
