@@ -74,3 +74,7 @@ import { promote } from "./teacher";
 const teacher = new Teacher("Mosh", "MSC")
 
 teacher.teach();
+
+
+
+
