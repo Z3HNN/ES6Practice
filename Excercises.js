@@ -39,5 +39,5 @@ const numbers = [
 ]
 
 function sumArrayOfNumbers(numbersArray) {
-    
+    let total = 0
 }
