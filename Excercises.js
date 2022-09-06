@@ -37,3 +37,5 @@ console.log(output)
 const numbers = [
     1, 45, 435, 45, 33, 22, 13, 34, 40, 87, 72
 ]
+
+function sumArrayOfNumbers
