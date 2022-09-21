@@ -1,4 +1,4 @@
-const firstNames = ['nataly', 'abcs\s', 'lily', 'devy']
+const firstNames = ['nataly', 'abcsss', 'lily', 'devy']
 firstNames.forEach((name) => console.log(name))
 
 const loadPokemonData = (id, cb) => {
