@@ -1,7 +1,7 @@
 const people = [
     { firstName: 'sam', lastName: 'hughes', DOB: '07/07/1978', department: 'Development', salary: '45000' },
     { firstName: 'terri', lastName: 'bishop', DOB: '02/04/1989', department: 'Development', salary: '35000' },
-    { firstName: 'Jar', lastName: 'Burke', DOB: '11/01/1985', department: 'Marketing', salary: '38000' },
+    { firstName: 'jar', lastName: 'Burke', DOB: '11/01/1985', department: 'Marketing', salary: '38000' },
     { firstName: 'Julio', lastName: 'Miller', DOB: '12/07/1991', department: 'Sales', salary: '40000' },
     { firstName: 'Chester', lastName: 'Flores', DOB: '03/15/1988', department: 'Development', salary: '41000' },
     { firstName: 'Madison', lastName: 'Marshall', DOB: '09/22/1980', department: 'Sales', salary: '32000' },
