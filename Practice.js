@@ -74,7 +74,7 @@ const teacher = new Teacher("Mosh", "MSC")
 
 teacher.teach();
 
-const number = [1, 7, -5, -10, 8, 3]
+const number = [3, 7, -5, -10, 8, 3]
 
 let min = null
 
