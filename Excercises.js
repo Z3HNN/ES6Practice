@@ -35,7 +35,7 @@ let result = repeatString('a', 8)
 console.log(result)
 
 const numbers = [
-    2, 5, 43, 45, 34, 26, 10, 31, 39, 13, 16
+    2, 5, 43, 46, 34, 26, 10, 31, 39, 13, 16
 ]
 
 function sumArrayOfNumbers(numbersArray) {
